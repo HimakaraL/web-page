@@ -33,6 +33,12 @@
   gap: 50px;
 }
 
+.nav-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Container {
   display: flex;
   justify-content: space-between;
@@ -42,11 +48,6 @@
   box-sizing: border-box;
 }
 
-.links {
-  display: flex;
-  list-style: none;
-}
-
 .links li a {
   text-decoration: none;
   color: black;
@@ -54,11 +55,33 @@
 
 .links li a:hover {
   color: rgb(250, 200, 0);
-  font-size: 20px;
 }
 
 .links li {
   margin: 15px;
+}
+
+.links{
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+
+.menu-icon{
+  margin-left: 70px;
+}
+
+#menu-toggle{
+  display: none;
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-toggle:checked + .menu-icon + .menu .links {
+  flex-direction: column;
 }
 
 .Container2 {
@@ -115,11 +138,11 @@
    background-color: grey;
 }
 
-.contact:hover{
+.contact1:hover{
     background-color: grey;
 } 
 
-.contact {
+.contact1 {
   text-align: center;
   background-color: black;
   transition: background-color 1s;
