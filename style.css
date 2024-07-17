@@ -1,3 +1,4 @@
+/* Header */
 .header1 {
   display: flex;
   justify-content: space-between;
@@ -33,6 +34,16 @@
   gap: 50px;
 }
 
+.vertical{
+  border-left: 2px solid grey;
+  height: 30px;
+  position: absolute;
+  top: 14%;
+  right: 13%;
+}
+
+
+/* Container1 */
 .nav-links{
   display: flex;
   align-items: center;
@@ -84,6 +95,7 @@
   flex-direction: column;
 }
 
+/* Container2 */
 .Container2 {
   display: flex;
   width: 100%;
@@ -148,6 +160,7 @@
   transition: background-color 1s;
 }
 
+/* Container3 */
 .Container3 {
   display: flex;
   margin-top: 100px;
@@ -164,6 +177,7 @@
   width: 100px;
 }
 
+/* Container4 */
 .Container4 {
   position: relative;
   width: 100%;
@@ -215,6 +229,7 @@
   margin-bottom: 0%;
 }
 
+/* Container5 */
 .Container5-videos {
   display: flex;
   justify-content: space-between;
@@ -235,6 +250,7 @@
   color: rgb(250, 200, 0);
 }
 
+/* Container6 */
 .Container6 {
   position: relative;
   padding: 100px 20%;
@@ -274,6 +290,7 @@
   border-style: none;
 }
 
+/* Container7 */
 .Container7 {
   background-color: rgb(250, 200, 0);
   margin-bottom: -25px;
@@ -313,6 +330,7 @@
   margin-top: 0;
 }
 
+/* container8 */
 .Container8 {
   color: white;
   background-color: black;
@@ -378,6 +396,7 @@
   gap: 5%;
 }
 
+/* Container9 */
 .Container9 {
   background-color: rgb(63, 62, 62);
   color: white;
@@ -409,6 +428,7 @@ body {
   margin: 0%;
 }
 
+/* Media query for mobile devices */
 @media (max-width: 480px) {
   .header1 {
     flex-direction: column;
@@ -555,8 +575,13 @@ body {
     padding-top: 3px;
     gap: 5%;
   }
+
+  .vertical{
+    display: none;
+  }
 }
 
+/* Media query for tablets below desktop */
 @media (max-width: 1200px) {
   .links {
     gap: 1%;
