@@ -906,3 +906,9 @@ body {
     gap: 70px;
   }
 }
+
+@media (max-width: 443px){
+  #img1{
+    height: 300px;
+  }
+}
