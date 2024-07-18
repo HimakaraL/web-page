@@ -254,6 +254,10 @@
   border: 1px solid grey;
 }
 
+.Container5 h3{
+  margin-top: 0px;
+}
+
 /* Container6 */
 .Container6 {
   position: relative;
@@ -771,7 +775,7 @@ body {
   }
 
   .Container2-text p {
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 1px 1px white;
     color: black;
   }
@@ -822,6 +826,14 @@ body {
   }
 
   .vertical{
+    display: none;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+
+  #menu-toggle{
     display: none;
   }
 }
