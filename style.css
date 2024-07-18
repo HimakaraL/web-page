@@ -34,7 +34,7 @@
   gap: 50px;
 }
 
-.vertical{
+.vertical {
   border-left: 2px solid grey;
   height: 30px;
   position: absolute;
@@ -42,9 +42,8 @@
   right: 13%;
 }
 
-
 /* Container1 */
-.nav-links{
+.nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,17 +71,17 @@
   margin: 15px;
 }
 
-.links{
+.links {
   list-style: none;
   display: flex;
   padding-left: 0px;
 }
 
-.menu-icon{
+.menu-icon {
   margin-left: 70px;
 }
 
-#menu-toggle{
+#menu-toggle {
   display: none;
 }
 
@@ -137,13 +136,13 @@
   transition: background-color 1s;
 }
 
-.read:hover{
-   background-color: grey;
+.read:hover {
+  background-color: grey;
 }
 
-.contact1:hover{
-    background-color: grey;
-} 
+.contact1:hover {
+  background-color: grey;
+}
 
 .contact1 {
   text-align: center;
@@ -248,13 +247,13 @@
   color: rgb(250, 200, 0);
 }
 
-.post-space-div{
+.post-space-div {
   height: 100px;
   width: 200px;
   border: 1px solid grey;
 }
 
-.Container5 h3{
+.Container5 h3 {
   margin-top: 0px;
 }
 
@@ -326,8 +325,8 @@
   transition: background-color 1s;
 }
 
-.subscribe:hover{
-    background-color: grey;
+.subscribe:hover {
+  background-color: grey;
 }
 
 .Container7-text h1 {
@@ -465,7 +464,7 @@ body {
     align-items: center;
   }
 
-  .Container-ham{
+  .Container-ham {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -592,33 +591,38 @@ body {
     gap: 5%;
   }
 
-  .vertical{
+  .vertical {
     display: none;
   }
 
-  .Container9{
+  .Container9 {
     font-size: smaller;
   }
 
-  .menu-icon{
+  .menu-icon {
     display: flex;
     margin-left: 0px;
   }
-  
-.menu{
-  display: none;
-}
 
-#menu-toggle:checked + .menu-icon + .menu {
-  display: flex;
-  /* flex-direction: row; */
-}
+  .menu {
+    display: none;
+  }
 
-.Container-ham{
-  display: flex;
-  gap: 20px;
-  text-align: right;
-}
+  #menu-toggle:checked + .menu-icon + .menu {
+    display: flex;
+    /* flex-direction: row; */
+  }
+
+  .Container-ham {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Between Tablets and Mobiles */
@@ -770,7 +774,7 @@ body {
     gap: 5%;
   }
 
-  .vertical{
+  .vertical {
     display: none;
   }
 
@@ -778,7 +782,7 @@ body {
     display: block;
   }
 
-  .Container9{
+  .Container9 {
     font-size: smaller;
   }
 }
@@ -848,7 +852,7 @@ body {
     justify-content: left;
   }
 
-  .vertical{
+  .vertical {
     display: none;
   }
 
