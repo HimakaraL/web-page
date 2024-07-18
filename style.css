@@ -465,6 +465,13 @@ body {
     align-items: center;
   }
 
+  .Container-ham{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
   .links {
     display: none;
     /* flex-direction: column;
@@ -589,13 +596,29 @@ body {
     display: none;
   }
 
-  #menu-toggle:checked + .menu-icon + .menu .links {
-    display: block;
-  }
-
   .Container9{
     font-size: smaller;
   }
+
+  .menu-icon{
+    display: flex;
+    margin-left: 0px;
+  }
+  
+.menu{
+  display: none;
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.Container-ham{
+  display: flex;
+  gap: 20px;
+  text-align: right;
+}
 }
 
 /* Between Tablets and Mobiles */
@@ -829,11 +852,11 @@ body {
     display: none;
   }
 
-  .menu-icon{
+  /* .menu-icon{
     display: none;
   }
 
   #menu-toggle{
     display: none;
-  }
+  } */
 }
