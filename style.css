@@ -313,11 +313,12 @@
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  width: 30%;
 }
 
 .subscribe-container input {
   height: 45px;
-  width: 80%;
+  width: 100%;
 }
 
 .subscribe {
@@ -789,6 +790,10 @@ body {
 
   .Container9 {
     font-size: smaller;
+  }
+
+  .subscribe-container{
+    width: 50%;
   }
 }
 
